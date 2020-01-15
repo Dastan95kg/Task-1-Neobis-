@@ -1,0 +1,25 @@
+.btn {
+    font-size: 16px;
+    background: 0;
+    padding: 13px 43px;
+    color: $red;
+    border: 0;
+    border: 1px solid $red;
+    cursor: pointer;
+
+    transition: .2s linear background-color,
+        .2s linear color;
+
+    &:focus {
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: $red;
+        color: white;
+    }
+
+    &--large {
+        padding: 13px 63px;
+    }
+}
